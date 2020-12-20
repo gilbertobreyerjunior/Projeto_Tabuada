@@ -147,7 +147,7 @@ padding: 20px;
     .content-tabuada td {
 
 padding: 0.75rem;
-border-top: 1px solid rgba(187, 187, 187, 0.452);
+border-top: 1px solid rgb(187, 187, 187, 0.452);
 
     }
 
@@ -157,5 +157,19 @@ width: 100%;
 border-collapse: collapse;
 
 
+
+    }
+
+    .content-tabuada tbody tr:nth-child(odd) {
+
+        background-color: rgba(172, 171, 171, 0.5);
+
+    }
+
+
+    .content-tabuada tbody tr:hover {
+
+        background-color: rgba(148, 148, 148, 0.15);
+        cursor: pointer;
 
     }
